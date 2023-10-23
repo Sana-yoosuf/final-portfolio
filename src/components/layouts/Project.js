@@ -7,7 +7,8 @@ import {
     IconContainer,
     PaddingContainer,
     ParaText,
-    ButtonLink
+    ButtonLink,
+    BlueText
 } from '../../styles/Global.styled'
 import { FaGithub } from 'react-icons/fa'
 
@@ -37,12 +38,16 @@ const Project = ({ data }) => {
                 whileInView="visible"
             >
                 <FlexContainer align="center" gap="1rem">
-                    <Heading as="h3" size="h3" bottom="1rem">
-                        {data.project_name}
+                    <Heading as="h3" size="h3" bottom="1rem" cursor="pointer">
+                       <IconContainer>{data.project_name}</IconContainer>  
                     </Heading>
 
-                    <IconContainer color="blue" size="2rem">
-                        <FaGithub />
+                    <IconContainer   size="2rem">
+                       
+                        <a style={{textDecoration:'none'}} href={data.project_git} >
+                            <BlueText> <FaGithub /></BlueText>
+                           
+                            </a>
                     </IconContainer>
 
                 </FlexContainer>

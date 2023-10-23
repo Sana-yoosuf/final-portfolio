@@ -37,13 +37,14 @@ const MyProjects = () => {
             variants={fadeInTopVariant}
             initial="hidden"
             whileInView="visible" 
-            size="h2">
+            size="h4"
+            top="0.5rem">
                 What <BlueText> I have Build</BlueText>
 
             </Heading>
 
             {projectDetails.map((project)=>(
-               <PaddingContainer key={project.id} top="5rem" bottom="5rem">
+               <PaddingContainer key={project.id} top="3rem" bottom="5rem">
                <Project data={project}/>
                 </PaddingContainer>
             ))}

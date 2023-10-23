@@ -29,6 +29,7 @@ export const Skills = [
 export const projectDetails=[
     {
         id:0,
+        project_git:'https://github.com/Sana-yoosuf/restaurent-design',
         project_name:"Restaurant App",
         project_desc: "This is a restaurant landing page with great UI made with ReactJs. It typically includes features such as a menu with prices,images and achivements",
         tech_stack:['HTML','CSS','React JS'],
@@ -40,6 +41,7 @@ export const projectDetails=[
 
     {
         id:1,
+        project_git:'https://github.com/Sana-yoosuf/gym_app',
         project_name:"Fitness App",
         project_desc: "Modern fitness exercise App with functionality to choose exercise categories and specific muscle groups.Browse more than 1000 exercises with example and also displays related videos from youtube",
         tech_stack:['HTML','Material UI','React JS'],
@@ -50,8 +52,9 @@ export const projectDetails=[
 
     {
         id:2,
-        project_name:"Edutech website",
-        project_desc: "This is freelance project page i created for watermelon digital and ADs agency",
+        project_git:'https://github.com/Sana-yoosuf/e-shop',
+        project_name:"E-commerce Website",
+        project_desc: "This is e-commerce website where we can place order",
         tech_stack:['HTML','CSS','React JS'],
         project_img: Project1,
         project_url:'https://techmedia-gerich-restaurant.netlify.app',

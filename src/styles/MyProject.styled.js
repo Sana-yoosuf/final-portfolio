@@ -23,8 +23,8 @@ export const TechStackCard = styled.div`
 
     export const ProjectImage = styled.img`
         border:1px solid #fff;
-        width:97%;
-        height:300px;
+        width:98%;
+        height:270px;
         object-fit:cover;
         border-radius:10px;
         
