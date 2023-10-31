@@ -2,6 +2,7 @@ import { FaReact, FaHtml5, FaCss3 } from 'react-icons/fa'
 import { SiJavascript } from 'react-icons/si'
 import Project1 from '../assets/p1.png'
 import Project2 from '../assets/Project2.png'
+import Project3 from '../assets/Project3.png'
 
 export const Skills = [
     {
@@ -34,7 +35,7 @@ export const projectDetails=[
         project_desc: "This is a restaurant landing page with great UI made with ReactJs. It typically includes features such as a menu with prices,images and achivements",
         tech_stack:['HTML','CSS','React JS'],
         project_img: Project1,
-        project_url:'https://techmedia-gerich-restaurant.netlify.app',
+        project_url:'https://restaurent-design.vercel.app',
         reverse:false
     },
 
@@ -46,18 +47,18 @@ export const projectDetails=[
         project_desc: "Modern fitness exercise App with functionality to choose exercise categories and specific muscle groups.Browse more than 1000 exercises with example and also displays related videos from youtube",
         tech_stack:['HTML','Material UI','React JS'],
         project_img: Project2,
-        project_url:'https://techmedia-gym.netlify.app',
+        project_url:'https://gym-app-gilt.vercel.app',
         reverse:true
     },
 
     {
         id:2,
-        project_git:'https://github.com/Sana-yoosuf/e-shop',
-        project_name:"E-commerce Website",
-        project_desc: "This is e-commerce website where we can place order",
-        tech_stack:['HTML','CSS','React JS'],
-        project_img: Project1,
-        project_url:'https://techmedia-gerich-restaurant.netlify.app',
+        project_git:'https://github.com/Sana-yoosuf/youtube-clone',
+        project_name:"Youtube Clone",
+        project_desc: "This is Youtube home page build using Tailwind CSS,React and Typescript.There are so many small complex interactions that actually make building out this home page design quite complicated",
+        tech_stack:['HTML','Tailwind CSS','ReactJS'],
+        project_img: Project3,
+        project_url:'https://youtube-clone-omega-lake.vercel.app',
         reverse:false
     },
 
